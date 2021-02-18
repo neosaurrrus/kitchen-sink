@@ -1,34 +1,35 @@
-@import url("https://fonts.googleapis.com/css?family=Space+Mono:400|Work+Sans:400");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 :root {
   /* Define Colors as colors */
-  --green: #00ebc7;
-  --red: #ff5470;
-  --yellow: #fde24f;
+  --purple: #BC13DF;
+  --red: #ff0064;
+  --yellow: #FFB800;
   --black: #1b2d45;
-  --darkBlue: #00214d;
+  --blue: #34b9ff;
+  --darkblue: #3C3D80;
   --darkGrey: #222;
-  --grey: #bfbfbf;
-  --lightGrey: #f2f4f6;
-  --white: #fff;
+  --grey: #808192;
+  --lightGrey: #EBEBEB;
+  --white: #FFFEFE;
 
   /* Define Colors intentions */
-  --primary: var(--green);
+  --primary: var(--purple);
   --danger: var(--red);
-  --background: var(--lightGrey);
+  --background: var(--white);
   --textColor: var(--black);
   --buttonTextColor: var(--black);
   --lineColor: var(--grey);
   --cardBg: var(--white);
-  --headerBackground: var(--darkBlue);
+  --headerBackground: var(--blue);
   --footerBackground: var(--black);
 
   /* Styles */
   --line: solid 1px var(--lineColor);
 
   /* Type */
-  --headingFont: "Space Mono", monospace;
-  --bodyFont: "Work Sans", sans-serif;
+  --headingFont: "Nunito", sans-serif;
+  --bodyFont: "Nunito", sans-serif;
   --baseFontSize: 100%;
   --h1: 3.052em;
   --h2: 2.441em;
@@ -133,7 +134,7 @@ h4,
 h5 {
   margin: 2.75rem 0 1.05rem;
   font-family: var(--headingFont);
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.15;
 }
 
