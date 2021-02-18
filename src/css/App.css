@@ -12,6 +12,8 @@
   --grey: #808192;
   --lightGrey: #EBEBEB;
   --white: #FFFEFE;
+  --transparentWhite: rgba(255, 254, 254,0.2);
+
 
   /* Define Colors intentions */
   --primary: var(--purple);
@@ -19,8 +21,9 @@
   --background: var(--white);
   --textColor: var(--darkblue);
   --buttonTextColor: var(--purple);
+  --buttonBackgroundColor: var(--transparentWhite);
   --lineColor: var(--grey);
-  --cardBg: var(--white);
+  --cardBg: var(--lightGrey);
   --headerBackground: var(--white);
   --footerBackground: var(--black);
 
@@ -213,7 +216,7 @@ button {
   appearance: none;
   color: var(--buttonTextColor);
   font-weight: 400;
-  background-color: var(--white);
+  background-color: var(--buttonBackgroundColor);
   border: 2px solid var(--buttonBorderColor);
   border-radius: 200px;
   padding: 10px 50px;
