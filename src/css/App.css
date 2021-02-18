@@ -5,7 +5,7 @@
   --purple: #BC13DF;
   --red: #ff0064;
   --yellow: #FFB800;
-  --black: #1b2d45;
+  --black: #252525;
   --blue: #34b9ff;
   --darkblue: #3C3D80;
   --darkGrey: #222;
@@ -17,11 +17,11 @@
   --primary: var(--purple);
   --danger: var(--red);
   --background: var(--white);
-  --textColor: var(--black);
+  --textColor: var(--darkblue);
   --buttonTextColor: var(--black);
   --lineColor: var(--grey);
   --cardBg: var(--white);
-  --headerBackground: var(--blue);
+  --headerBackground: var(--white);
   --footerBackground: var(--black);
 
   /* Styles */
@@ -31,11 +31,11 @@
   --headingFont: "Nunito", sans-serif;
   --bodyFont: "Nunito", sans-serif;
   --baseFontSize: 100%;
-  --h1: 3.052em;
-  --h2: 2.441em;
-  --h3: 1.953em;
-  --h4: 1.563em;
-  --h5: 1.25em;
+  --h1: 1.802em;
+  --h2: 1.602em;
+  --h3: 1.424em;
+  --h4: 1.266em;
+  --h5: 1.125em;
   --smallText: 0.8em;
 
   /* Elevation */
@@ -75,14 +75,13 @@ body {
 }
 
 header {
-  color: white;
+  color: var(--grey);
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: var(--headerHeight);
   background: var(--headerBackground);
-  box-shadow: var(--level-2);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,7 +89,7 @@ header {
 }
 
 header nav a {
-  color: white;
+  color: var(--grey);
   text-decoration: none;
 }
 
@@ -132,10 +131,16 @@ h2,
 h3,
 h4,
 h5 {
+  color: var(--red);
   margin: 2.75rem 0 1.05rem;
   font-family: var(--headingFont);
-  font-weight: 700;
   line-height: 1.15;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
 }
 
 h1 {
@@ -163,6 +168,7 @@ small,
 .text_small {
   font-size: var(--smallText);
 }
+
 
 /* End typescale */
 
@@ -270,7 +276,7 @@ button.small {
 
 @media only screen and (min-width: 500px) {
   :root {
-    --baseFontSize: 112.5%;
+    --baseFontSize: 150%;
   }
   .grid {
     display: grid;
