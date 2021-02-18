@@ -5,17 +5,17 @@ function App() {
   return (
     <div className="App">
     <header>
-      <h1 class="fake-logo">Fake Logo</h1>
+      <h1 className="fake-logo">Fake Logo</h1>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#">Retail Partners</a>
+        <a href="#">Business Partners</a>
+        <a href="#">Bink &#9660</a>
       </nav>
     </header>
 
-    <main class="layout">
-      <h1>Hello World</h1>
-
+    <main className="layout">
+      <h1>Bink helps your loyalty programme work even harder</h1>
+  
       <p>
         Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -43,7 +43,7 @@ function App() {
       <h5>Hello World</h5>
       <h6>Hello World</h6>
       <hr />
-      <div class="grid">
+      <div className="grid">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -60,7 +60,7 @@ function App() {
         </ul>
       </div>
 
-      <div class="card">
+      <div className="card">
         <h3>Card Heading</h3>
 
         <p>
@@ -70,7 +70,7 @@ function App() {
         <button>Accept</button>
       </div>
 
-      <div class="grid grid--split">
+      <div className="grid grid--split">
         <aside>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -86,7 +86,7 @@ function App() {
         </p>
       </div>
 
-      <div class="split">
+      <div className="split">
         <aside>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -105,26 +105,26 @@ function App() {
       <hr />
 
       <form>
-        <div class="grid cols-3">
+        <div className="grid cols-3">
           <div>
-            <label for="text">Text</label>
+            <label htmlFor="text">Text</label>
             <input placeholder="Scott Tolinski" id="text" type="text" />
           </div>
           <div>
-            <label for="number">Number</label
+            <label htmlFor="number">Number</label
             ><input id="number" type="number" />
           </div>
 
           <div>
-            <label for="email">Email</label><input id="email" type="email" />
+            <label htmlFor="email">Email</label><input id="email" type="email" />
           </div>
         </div>
         <div>
-          <label for="textarea">Textarea</label>
-          <textarea id="textarea">Default value</textarea>
+          <label htmlFor="textarea">Textarea</label>
+          <textarea id="textarea" value="Default value"></textarea>
         </div>
         <div>
-          <label for="select">Select</label>
+          <label htmlFor="select">Select</label>
           <select id="select" type="text">
             <option value="one">One</option>
             <option value="two">One</option>
@@ -132,23 +132,27 @@ function App() {
         </div>
 
         <button>Submit</button>
-        <button class="cancel">Cancel</button>
+        <button className="cancel">Cancel</button>
         <button disabled>Disabled</button>
         <button>Button with long text</button>
         <button>Button &xrarr;</button>
         <br />
-        <button class="small">Submit</button>
+        <button className="small">Submit</button>
       </form>
     </main>
 
     <footer>
-      <h3 class="fake-logo">Fake Logo</h3>
+      <h3 className="fake-logo">Bink Logo</h3>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#">App</a>
+        <a href="#">Careers</a>
+        <a href="#">Support</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Terms and Conditions</a>
       </nav>
-      <p>&copy; 2020 Level Up Tutorials LLC</p>
+      <p>&copy; 2021 Lukie Kang</p>
     </footer>
     </div>
   );

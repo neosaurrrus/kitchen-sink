@@ -18,7 +18,7 @@
   --danger: var(--red);
   --background: var(--white);
   --textColor: var(--darkblue);
-  --buttonTextColor: var(--black);
+  --buttonTextColor: var(--purple);
   --lineColor: var(--grey);
   --cardBg: var(--white);
   --headerBackground: var(--white);
@@ -209,13 +209,14 @@ hr {
 }
 
 button {
-  --buttonColor: var(--primary);
+  --buttonBorderColor: var(--purple);
   appearance: none;
   color: var(--buttonTextColor);
-  background-color: var(--buttonColor);
-  border: none;
-  border-radius: 10px;
-  padding: 5px 25px;
+  font-weight: 400;
+  background-color: var(--white);
+  border: 2px solid var(--buttonBorderColor);
+  border-radius: 200px;
+  padding: 10px 50px;
   box-shadow: var(--level-1);
   transition: 0.3s ease-in-out box-shadow;
 }
@@ -274,7 +275,7 @@ button.small {
   --justifyContent: space-around;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
   :root {
     --baseFontSize: 150%;
   }
