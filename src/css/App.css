@@ -290,7 +290,7 @@ button.small {
   }
 }
 
-.fake-logo {
+.logo {
   font-size: var(--baseFontSize);
   margin: 0;
 }
@@ -300,6 +300,8 @@ button.small {
   background: var(--cardBg);
   box-shadow: var(--level-3);
   border-radius: var(--borderRadius);
+  max-width: 400px;
+  text-align: center;
 }
 
 /* First item will never have margin top */

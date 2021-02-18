@@ -2,7 +2,7 @@
 export default function Header() {
   return (
     <header>
-      <h1 className="fake-logo">Fake Logo</h1>
+      <h1 className="logo">Logo</h1>
       <nav>
         <a href="#">Retail Partners</a>
         <a href="#">Business Partners</a>

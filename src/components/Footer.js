@@ -1,10 +1,7 @@
-
-import './css/App.css';
-
 export default function Footer() {
   return (
     <footer>
-      <h3 className="fake-logo">Bink Logo</h3>
+      <h3 className="logo">Logo</h3>
       <nav>
         <a href="#">App</a>
         <a href="#">Careers</a>
@@ -18,5 +15,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-
